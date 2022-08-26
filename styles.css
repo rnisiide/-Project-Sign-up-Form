@@ -1,0 +1,8 @@
+#wrapper {
+    display: flex;
+}
+
+#picture {
+    border-style: dotted;
+    border-color: aqua;
+}
