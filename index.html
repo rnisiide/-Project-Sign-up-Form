@@ -9,9 +9,64 @@
 </head>
 <body>
     <div id="wrapper">
-        <div id="picture">Picture container</div>
-        <div id="content">
-            Form container
+        <div id="picture">            
+            <div class="upper">
+                <div class="logo">
+                    <img src="./assets/cogu-cinza.png" alt="">
+                    <h1>LOUCOGU</h1>
+                </div>
+            </div>
+            <div class="lower">
+                <a href="https://www.freepik.com/free-vector/fantasy-landscape-with-huge-mushroom-forest-pond-swamp_12407860.htm#query=psychedelic%20mushroom&position=6&from_view=search">Image by upklyak on Freepik</a>
+                
+            </div>
+        </div>
+
+        <div id="form-section">
+            <div class="upper formtext">
+                <h1>This is not a real online service!</h1>
+                <p>This is a sign-up form for an imaginary service, as an assignment for The Odin Project. </br>This will not get you subscribed anywhere. </p>
+            </div>
+            <form action="">
+                <div class="formbg">
+                    <h1>Embark on this magic trip!</h1>
+                    <div class="formblock">
+                        <div class="formitem">
+                            <label for="firstname"> First Name *</label> <br>
+                            <input id="firstname" type="text" required>
+                        </div>
+                        <div class="formitem">
+                            <label for="lastname"> Last Name *</label> <br>
+                            <input id="lastname" type="text" required>
+                        </div>
+                    </div>
+                    <div class="formblock">
+                        <div class="formitem">
+                            <label for="email"> Email *</label> <br>
+                            <input id="email" type="email" required>
+                        </div>
+                        <div class="formitem">
+                            <label for="phone"> Phone Number *</label> <br>
+                            <input id="phone" type="tel" required>
+                        </div>
+                    </div>
+                    <div class="formblock">
+                        <div class="formitem">
+                            <label for="password"> Password *</label> <br>
+                            <input id="password" type="password" blur="pswdverify()">
+                        </div>
+                        <div class="formitem">
+                            <label for="confirmpassword"> Confirm password *</label> <br>
+                            <input id="confirmpassword" type="password" blur="pswdverify()">
+                        </div>
+                    </div>
+                    <span class="pswdmatch">*Passwords do not match</span>
+                </div>
+                <button type="submit">Create account</button>
+            </form>
+            <div class="formtext">
+                <p>Already have an account? <a>Log in</a></p>
+            </div>
         </div>
     </div>
     
